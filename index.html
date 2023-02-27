@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Countdown Timer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Event Countdown Timer</h1>
+		<form>
+			<label for="event-date">Event Date:</label>
+			<input type="datetime-local" id="event-date" name="event-date">
+			<button type="button" onclick="setCountdown()">Set Countdown</button>
+		</form>
+		<div id="countdown"></div>
+	</div>
+	<script src="counter.js"></script>
+</body>
+</html>
